@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins'sans-serif;
+    background-image: url('./img/background.png');
+}
+
+header img{
+    margin-top: 0.3rem;
+    margin-left: 110px;
+    margin-bottom: 80px;
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items at the top */
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+header h2{
+    color: red;
+    font-weight: 900;
+    margin-top: -4rem;
+    margin-bottom: -1rem;
+}
+
+.container {
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.hero {
+    margin-bottom: 6rem;
+    margin-left: 30px;
+    margin-top: 2rem;
+
+}
+.hero button {
+background-color: #527cea; 
+  border: none;
+  color: white;
+  padding: 10px 46px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  font-family: "Poppins" sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+footer {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  footer .copy {
+    color: #666;
+  }
+  footer p {
+    font-size: 11px;
+    color: black;
+    font-weight: 500;
+  }
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+width: 100%;  
+}
+  header img{
+    margin-left: 1.5rem;
+  }
+  .hero input {
+    padding: 3px;
+  }
+}
+
+/* Mobile phone */
+@media (max-width: 450px) {
+ html {
+    padding: 10px;
+ }
+ .container {
+  margin-left: -15px;
+ }
+header img{
+box-sizing: border-box;
+margin-left: 20px;
+}
+footer {
+  text-align: center;
+  margin-top: -4rem;
+}
+}
+

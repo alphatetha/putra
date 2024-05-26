@@ -1,0 +1,234 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./img/background.png");
+}
+
+.container {
+  font-family: "Poppins" sans-serif;
+}
+
+header img {
+  width: 200px; /* Adjust as needed */
+  margin-top: 2.7rem;
+  margin-left: 110px;
+  margin-bottom: 80px;
+  display: flex; /* Use flexbox for layout */
+  align-items: flex-start; /* Align items at the top */
+}
+.content {
+  margin: 10px auto;
+  width: 70%;
+}
+
+.text {
+  margin: 10px 110px 0px 110px;
+  width: 70%;
+}
+
+.content img {
+  float: right;
+  margin-top: -2rem;
+  display: flex;
+}
+
+.content h6 {
+  color: red;
+  font-weight: 600;
+  text-align: start;
+  font-family: "Poppins" sans-serif;
+  margin-left: -3.5rem;
+}
+.text img {
+  display: none;
+}
+.text button {
+  background-color: #527cea; /* blue */
+  border: none;
+  color: white;
+  padding: 12px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 35px 2px;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  font-family: "Poppins" sans-serif;
+}
+
+.text h3 {
+  font-family: "Poppins" sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: 2rem;
+  line-height: 1rem;
+}
+footer {
+  text-align: center;
+  bottom: -3rem;
+}
+
+footer .copy {
+  color: #666;
+}
+
+footer .thankyou {
+  margin-top: 4.6rem;
+  line-height: 1px;
+}
+footer p {
+  font-size: 11px;
+  color: black;
+  font-weight: 500;
+}
+/* Media queries */
+
+/* Laptop */
+@media (max-width: 1000px) {
+  html {
+    width: 100%;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+  header img {
+    width: 200px; /* Adjust as needed */
+    box-sizing: border-box;
+    margin-left: 45px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex; /* Use flexbox for layout */
+    align-items: start;
+  }
+  .content img {
+    float: right;
+    margin-top: -2rem;
+    display: none;
+  }
+  .content h6 {
+    color: red;
+    font-weight: 600;
+    font-family: "Poppins" sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: -2.5rem;
+    font-size: medium;
+  }
+.text {
+  margin-top: 3.5rem;
+}
+  .text h3 {
+    font-family: "Poppins" sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: x-large;
+    margin-top: 2rem;
+    line-height: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: -9.5rem;
+    justify-content: center;
+  }
+  .text img {
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-bottom: -9rem;
+    margin-left: 5.9rem;
+    display: flex;
+  }
+  .text button{
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    margin-left: 3.7rem;
+  }
+  .gambar img{
+    box-sizing: border-box;
+    width: 30%;
+    display: none;
+    margin-top: -10rem;
+  }
+  footer {
+    box-sizing: border-box;
+    width: 70%;
+    margin: auto;
+  }
+}
+/* Mobile phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 65%;
+  }
+  header img {
+    width: 200px; /* Adjust as needed */
+    box-sizing: border-box;
+    margin-left: 45px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex; /* Use flexbox for layout */
+    align-items: start;
+  }
+  .content img {
+    float: right;
+    margin-top: -2rem;
+    display: none;
+  }
+  .content h6 {
+    color: red;
+    font-weight: 600;
+    font-family: "Poppins" sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: -0.5rem;
+    font-size: medium;
+  }
+.text {
+  margin-top: 3.5rem;
+}
+  .text h3 {
+    font-family: "Poppins" sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: x-large;
+    margin-top: 2rem;
+    line-height: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: -9.5rem;
+    justify-content: center;
+  }
+  .text img {
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-bottom: -9rem;
+    margin-left: 1.75rem;
+    display: flex;
+  }
+  .text button{
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    margin-left: -0.7rem;
+  }
+  .gambar img{
+    box-sizing: border-box;
+    width: 30%;
+    display: none;
+    margin-top: -10rem;
+  }
+  footer {
+    box-sizing: border-box;
+    width: 70%;
+    margin: auto;
+  }
+}
